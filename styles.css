@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    font-family: 'Roboto';
+    margin:0px auto;
+    width:80%;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 150px;
+}
+
+h1 {
+    font-size:3em;
+    margin:0px;
+    padding:0px;
+    align-items: center;
+    text-align: left;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: left;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: right;
+}
+
+main {
+    margin-top: 50px;
+}
+
+#about {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+#aboutText {
+    text-align: left;
+    font-size: 1.2em;
+    width:500px;
+}
+
+.container {
+    height:300px;
+    width:300px;
+    border: 3px solid black;
+    
+
+}
+.container h3 {
+    margin-top: 140px;
+}
+
+.container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#titleContainer h2 {
+    text-align:center;
+    margin: 0px auto;
+    width:1050px;
+}
+
+#projects {
+    width:100%;
+    height:500px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 1525px) {
+    #projects {
+        height:900px;
+    }
+}
+
+@media only screen and (max-width: 1015px) {
+    #projects {
+        height:1300px;
+    }
+}
+
+#contact {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ h2 {
+     margin-top: 50px;
+ }
+
+ #contact .container {
+     border: none;
+ }
