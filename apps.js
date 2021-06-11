@@ -1,4 +1,4 @@
-const setBg = () => {
+/*const setBg = () => {
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
     document.getElementById('me').style.color = "#" + randomColor;
     //document.h1.style.backgroundColor = "#" + randomColor;
@@ -7,7 +7,7 @@ const setBg = () => {
   
   genNew.addEventListener("click", setBg);
   setBg();
-
+*/
 
   
   const timeContainer = document.getElementById("time-container");
@@ -23,3 +23,6 @@ const setBg = () => {
 
     timeContainer.innerText = intlNumberFormatter.format(difference);
   }, 1000);
+
+
+  
